@@ -18,7 +18,7 @@ const Form = () => {
         tg.MainButton.show()
       }
     })
-  const onChangeCountry = (e) => {
+const onChangeCountry = (e) => {
     setCountry(e.target.value)
 }
 
